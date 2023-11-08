@@ -1,0 +1,130 @@
+img{
+    width:40vw;
+    height:50vh;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+body{
+    display:flex;
+    gap: 1em;
+    margin: auto auto;
+    justify-content: center;
+    align-content:end;
+    margin-top: 8vh;
+}
+
+.first{
+    background: url(Picture1.jpg);
+    width:5vw;
+    height:80vh;
+    border-radius: 50px;
+    background-size: 70vw 80vh;
+    background-repeat: no-repeat;
+    transition: 0.6s;
+    position: relative;
+    background-size: cover;
+}
+h3{
+    position: absolute;
+    top:80%;
+    left:20px;
+    opacity:0;
+    color:white;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+.second{
+    background: url(Picture2.jpg);
+    width:5vw;
+    height:80vh;
+    border-radius: 30px;
+    background-size: 70vw 80vh;
+    background-repeat: no-repeat;
+    transition: 0.6s;
+    position: relative;
+
+}
+.three{
+    background: url(Picture3.jpg);
+    width:5vw;
+    height:80vh;
+    border-radius: 30px;
+    background-size: 70vw 80vh;
+    background-repeat: no-repeat;
+    transition: 0.6s;
+    position: relative;
+
+}
+
+.four{
+    background: url(Picture4.jpg);
+    width:5vw;
+    height:80vh;
+    border-radius: 30px;
+    background-size: 70vw 80vh;
+    background-repeat: no-repeat;
+    transition: 0.6s;
+    position: relative;
+
+}
+
+.five{ 
+    background: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+    width:5vw;
+    height:80vh;
+    border-radius: 30px;
+    background-size:70vw 80vh;
+    background-repeat: no-repeat;
+    transition: 0.6s;
+    position: relative;
+
+}
+
+@media (max-width:600px) {
+    .four{
+        display: none;
+    }
+    .five{
+        display: none;
+    }
+    .first{
+        background: url(Picture1.jpg);
+        width:5vw;
+        height:80vh;
+        border-radius: 50px;
+        background-size: 70vw 80vh;
+        background-repeat: no-repeat;
+        transition: 0.6s;
+        position: relative;
+    }
+    h3{
+        position: absolute;
+        top:80%;
+        left:20px;
+        opacity:0;
+        color:white;
+    }
+    
+    .four{
+        background: url(Picture4.jpg);
+        width:5vw;
+        height:80vh;
+        border-radius: 30px;
+        background-size: 70vw 80vh;
+        background-repeat: no-repeat;
+        transition: 0.6s;
+        position: relative;
+    
+    }
+    .three{
+        background: url(Picture3.jpg);
+        width:5vw;
+        height:80vh;
+        border-radius: 30px;
+        background-size: 70vw 80vh;
+        background-repeat: no-repeat;
+        transition: 0.6s;
+        position: relative;
+    }
+}
