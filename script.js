@@ -70,6 +70,10 @@ function opennn(){
         tex[0].style.transition = "0.5s"
     } else {
         exp[2].style.width = "70vw";
+        exp[4].style.width = "5vw";
+        exp[3].style.width = "5vw";
+        exp[1].style.width = "5vw";
+        exp[0].style.width = "5vw";
         tex[2].style.opacity = "1";
         tex[2].style.transition = "0.5s"
     }
